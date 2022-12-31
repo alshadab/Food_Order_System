@@ -4,7 +4,7 @@ import logo from "../../images/favicon.png";
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
         <Link class="navbar-brand" to="/" style={{display:"flex"}} >
           <img src={logo} alt="logo" style={{ maxWidth: "40px" }} />
